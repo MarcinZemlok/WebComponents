@@ -1,0 +1,48 @@
+/******************************************************************************/
+/* File:        mz_carousel.css                                               */
+/* Create Date: 14/12/2019                                                    */
+/* Version:     0.1                                                           */
+/*                                                                            */
+/* Author:      Marcin Żemlok                                                 */
+/* E-mail:      marcinzemlok@gmail.com                                        */
+/*                                                                            */
+/* HISTORY:                                                                   */
+/* DATE			|AUTHOR				|COMMENT                                  */
+/* 14/12/2019	|Marcin Żemlok		|Innitial working setup for carousel.
+/******************************************************************************/
+
+.mz-carousel-container {
+  width: 100%;
+  /* ... */
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  /* ... */
+  background-color: black;
+  padding: 10px 0 10px;
+}
+
+.mz-carousel {
+  min-height: 200px;
+  max-width: 200px;
+  /* ... */
+  position: relative;
+  left: 0px;
+  /* ... */
+  margin: 0 auto 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.mz-card {
+  min-height: 100%;
+  min-width: 100%;
+  /* ... */
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  /* ... */
+  background-color: whitesmoke;
+  text-align: center;
+  transition: 0.5s;
+}
